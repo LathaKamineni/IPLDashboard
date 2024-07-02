@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.match-container {
+  min-height: 100vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 55px;
+  padding-top: 50px;
+  padding-right: 55px;
+}
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33);
+}
+.dc {
+  background-image: linear-gradient(to bottom, #5755a7, #d91c1f);
+}
+.rr {
+  background-image: linear-gradient(to bottom, #da237b, #13418b);
+}
+.srh {
+  background-image: linear-gradient(to bottom, #f26d22, #4f5db0);
+}
+.kxp {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+.kkr {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+}
+.team-banner-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+.latest-match-text {
+  font-family: Bree serif;
+  color: #ffffff;
+  align-self: flex-start;
+}
+.recent-matches-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

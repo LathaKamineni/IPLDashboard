@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e293b;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+@media screen and (min-width: 576px) {
+  .latest-match-container {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.team-name-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.competing-team-name {
+  color: #ffffff;
+  font-family: Bree serif;
+}
+.venue {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 8px;
+}
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 13px;
+  }
+}
+.result {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 8px;
+}
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 13px;
+  }
+}
+.competing-team-logo {
+  height: 50px;
+  width: 60px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    height: 170px;
+    width: 170px;
+    margin-left: 150px;
+  }
+}
+.first-innings {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+.first-inning-team-name {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-size: 8px;
+}
